@@ -10,6 +10,6 @@ class Main():
         for event in pygame.event.get():
             if event.type is pygame.QUIT:
                 is_running = False
-        display_surface.fill("blue")
+        display_surface.fill("red")
         pygame.display.update()
     pygame.quit()
